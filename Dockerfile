@@ -1,6 +1,6 @@
 FROM centos:6
-MAINTAINER Jeff Nickoloff "jeff@dockerinaction.com"
-LABEL dia_excercise=ch9_ftp_workflow
+MAINTAINER Jeff Nickoloff "jeff@allingeek.com"
+LABEL dia_excercise=ch9_ftpd
 RUN yum -y install vsftpd && \
     chmod -R a-w /var/ftp && \
     mkdir /var/ftp/pub/incoming && \
